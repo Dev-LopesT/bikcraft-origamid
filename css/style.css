@@ -25,6 +25,7 @@ h1 {
 
 p {
   font-size: var(--font-size-paragrafos);
+  line-height: 1.3;
 }
 
 .flex-cotainer-header {
