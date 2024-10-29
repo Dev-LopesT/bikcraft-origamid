@@ -1,0 +1,169 @@
+/* Estilos Gerais */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border: 0;
+  font-family: var(--font-family);
+}
+
+body {
+  background-color: var(--color-cinza);
+}
+
+/* Header */
+.header {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: var(--font-size-paragrafos);
+}
+
+.flex-cotainer-header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 40px;
+  gap: 40px;
+}
+
+.flex-cotainer-header h1 {
+  font-size: 36px;
+}
+
+.flex-container-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 34px;
+}
+
+.nav-item {
+  background-color: white;
+  color: black;
+  padding: 14px 18px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.nav-item:hover {
+  background-color: #f2f2f2;
+}
+
+/* Main */
+
+.main-container {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+.line-red {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  left: -25px;
+  width: 50px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: var(--vermelho);
+}
+
+
+/* Primeira Grid - Bicicletas Feitas a Mão */
+
+.container-flex-txt {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px;
+  text-align: right;
+}
+
+.container-flex-txt h2 {
+  font-size: 30px;
+}
+
+.container-flex-txt p {
+  font-size: var(--font-size-paragrafos);
+  line-height: 30px;
+}
+
+.btn-red {
+  display: inline-block;
+  background-color: var(--vermelho);
+  text-transform: uppercase;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 4px;
+}
+
+.btn-red:hover {
+  background-color: #dd0011;
+}
+
+.item-grid-dois {
+  position: relative;
+
+}
+
+.item-grid-tres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.item-grid-quatro {
+  padding: 40px;
+  background-color: white;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns:  5% 1fr;
+  gap:10px;
+}
+
+.title-vantagens {
+  color: var(--cinza-escuro);
+  text-transform: uppercase;
+  font-size: var(--font-size-vantagens-bikecraft);
+  text-align: end;
+}
+
+.decription {
+  grid-column: 2;
+
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+}
